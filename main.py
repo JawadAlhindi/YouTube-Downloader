@@ -13,7 +13,7 @@ def startDownload():
         title.configure(text=ytObject.title, text_color="white")
         finishLabel.configure(text="")
         video.download()
-        finishLabel.configure(text="Downloaded!")
+        finishLabel.configure(text="Downloaded!", text_color="green")
     except:
         finishLabel.configure(text="Download Error", text_color="red")
 
